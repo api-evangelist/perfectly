@@ -1,22 +1,67 @@
 aid: perfectly
 name: Perfectly
-description: Perfectly is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Perfectly is an AI-native recruiting platform (Y Combinator W2026) that automates the
+  hiring process end to end, from candidate sourcing and outreach through screening and
+  qualification. Its employer-facing AI recruiting agent, Paul, sources, engages, and
+  qualifies candidates to help startups fill roles in days rather than weeks, delivered
+  as an AI-native recruiting agency paired with a forward-deployed recruiter for onboarding
+  and configuration. Its job-seeker agent, Parker, is an AI career super-connector on
+  iMessage and WhatsApp that helps candidates find relevant industry contacts and craft
+  personalized outreach before roles are publicly posted. Founded by former ML scientists
+  and engineers from Meta and TikTok, Perfectly operates as a chat- and agent-delivered
+  hiring service rather than a public developer API; no public API, developer portal, SDK,
+  or specification surface was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/perfectly/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/perfectly.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Recruiting
+- Hiring
+- Talent Acquisition
+- AI Agents
+- HR Tech
+- Sourcing
+- Job Search
 apis: []
+common:
+- type: DomainSecurity
+  url: security/perfectly-domain-security.yml
+- type: Website
+  url: https://www.perfectly.so/
+- type: TermsOfService
+  url: https://www.perfectly.so/terms
+- type: PrivacyPolicy
+  url: https://www.perfectly.so/privacy
+- type: SignUp
+  url: https://form.typeform.com/to/vA2iSSoy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
